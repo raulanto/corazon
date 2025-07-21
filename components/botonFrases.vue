@@ -1,7 +1,7 @@
 <template>
     <div class="romantic-container">
         <button @click="mostrarFraseRomantica" class="romantic-button">
-            Mago y Raul
+            Majo y Raul
         </button>
         <div v-if="fraseActual" class="frase-romantica">
             "{{ fraseActual }}"
@@ -37,6 +37,13 @@ const mostrarFraseRomantica = () => {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    font-family: 'DM Serif Display', serif;
+}
+
+
 .romantic-container {
     display: flex;
     flex-direction: column;
@@ -77,12 +84,15 @@ const mostrarFraseRomantica = () => {
     font-style: italic;
     font-size: 18px;
     color: #333;
-    border-left: 4px solid #ff6b81;
     animation: fadeIn 0.5s ease;
 }
-
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+
+
+
+
 </style>
