@@ -10,7 +10,7 @@ import BotonFrases from "~/components/botonFrases.vue";
       <img
         src="~/assets/pattern-4008915.svg"
         alt="Fondo de corazones"
-        class="w-full h-full object-cover object-center"
+        class="w-full h-full object-cover object-center fill-gray-800"
       />
       <!-- Capa de overlay opcional para mejor legibilidad -->
       <div class=""></div>

@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <div v-if="timePassed" class="w-full font-serif">
+        <div v-if="timePassed" class="w-full font-serif ">
             <p class=" text-shadow-md text-rose-500">
                 <span class="text-xs sm:text-base md:text-xl"> Han pasado: </span>
                 <samp
@@ -21,7 +21,6 @@
                     timePassed.seconds }}</samp>
                 <span class="text-xs sm:text-base md:text-xl"> seg, </span>
             </p>
-
             <section
                 class="flex w-full justify-center items-center  text-shadow-md text-rose-500">
                 <span class=" text-4xl sm:text-6xl md:text-8xl font-bold font-serif">{{ timeAdosMeses.years
